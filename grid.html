@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid</title>
+  <style>
+    .header {
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+      gap: 20px;
+    }
+
+    ul {
+      display: grid;
+      grid-auto-flow: column;
+      gap: 10px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    img {
+      width: 150px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>serial</h1>
+    <img src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/3fc82165-2aac-4983-ae3d-f42677d80df9/7b9bc966-1fd6-4c99-b4ec-11eb68602013?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500" alt="Zdjęcie">
+  </div>
+
+  <ul>
+    <li>zombie</li>
+    <li>apokalipsa</li>
+    <li>ciekawy</li>
+  </ul>
+
+  <div class="images">
+    <div class="box"><img src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/3fc82165-2aac-4983-ae3d-f42677d80df9/7b9bc966-1fd6-4c99-b4ec-11eb68602013?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500" alt="Obrazek 1"></div>
+    <div class="box"><img src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/3fc82165-2aac-4983-ae3d-f42677d80df9/7b9bc966-1fd6-4c99-b4ec-11eb68602013?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500" alt="Obrazek 2"></div>
+  </div>
+</body>
+</html>

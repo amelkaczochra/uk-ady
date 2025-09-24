@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>float</title>
+  <style>
+    .header {
+      overflow: hidden;
+    }
+    .header h1, .header img { 
+      width: 150px;
+      height: 150px;
+      float: left;
+      margin-right: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      float: left;
+      margin-right: 15px;
+    }
+
+    .image-container {
+      overflow: hidden;
+      margin-top: 20px;
+    }
+    .image-container div {
+      float: left;
+      margin-right: 20px;
+    }
+    .image-container img {
+      width: 150px;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Książki</h1>
+    <img src="https://static.wikia.nocookie.net/harrypotter/images/6/6f/Harry_Potter_%28seria_ksi%C4%85%C5%BCek%29.png/revision/latest?cb=20200731100922&path-prefix=pl" alt="Obrazek">
+  </div>
+
+  <ul>
+    <li>fantastyka</li>
+    <li>przygodowa</li>
+    <li>o magii</li>
+  </ul>
+
+  <div class="image-container">
+    <div><img src="https://static.wikia.nocookie.net/harrypotter/images/6/6f/Harry_Potter_%28seria_ksi%C4%85%C5%BCek%29.png/revision/latest?cb=20200731100922&path-prefix=pl" alt="Obrazek 1"></div>
+    <div><img src="https://static.wikia.nocookie.net/harrypotter/images/6/6f/Harry_Potter_%28seria_ksi%C4%85%C5%BCek%29.png/revision/latest?cb=20200731100922&path-prefix=pl" alt="Obrazek 2"></div>
+  </div>
+</body>
+</html>

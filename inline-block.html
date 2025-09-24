@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Inline-block</title>
+  <style>
+    .header h1, .header img {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+
+    ul {
+      padding: 0;
+    }
+
+    ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .images .box {
+      display: inline-block;
+      width: 45%;
+      vertical-align: top;
+      margin-right: 5%;
+    }
+
+    .images .box:last-child {
+      margin-right: 0;
+    }
+
+    img {
+      width: 150px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Bajka</h1>
+    <img src="https://dubbingpedia.pl/w/images/thumb/a/a9/Zapl%C4%85tani.jpg/300px-Zapl%C4%85tani.jpg" alt="Zdjęcie">
+  </div>
+
+  <ul>
+    <li>ciekawa</li>
+    <li>przygodowa</li>
+    <li>interesująca</li>
+  </ul>
+
+  <div class="images">
+    <div class="box"><img src="https://dubbingpedia.pl/w/images/thumb/a/a9/Zapl%C4%85tani.jpg/300px-Zapl%C4%85tani.jpg" alt="Obrazek 1"></div>
+    <div class="box"><img src="https://dubbingpedia.pl/w/images/thumb/a/a9/Zapl%C4%85tani.jpg/300px-Zapl%C4%85tani.jpg" alt="Obrazek 2"></div>
+  </div>
+</body>
+</html>

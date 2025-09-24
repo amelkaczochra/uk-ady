@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox</title>
+  <style>
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      gap: 100px;
+    }
+
+    .images {
+      display: flex;
+      gap: 100px;
+      margin-top: 100px;
+    }
+
+    .box {
+      flex: 1;
+    }
+
+    img {
+      width: 150px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Film</h1>
+    <img src="https://assets.upflix.pl/media/plakat/2001/the-fast-and-the-furious__300_427.jpg" alt="Zdjęcie">
+  </div>
+
+  <ul>
+    <li>samochody</li>
+    <li>akcja</li>
+    <li>wyścigi</li>
+  </ul>
+
+  <div class="images">
+    <div class="box"><img src="https://assets.upflix.pl/media/plakat/2001/the-fast-and-the-furious__300_427.jpg" alt="Obrazek 1"></div>
+    <div class="box"><img src="https://assets.upflix.pl/media/plakat/2001/the-fast-and-the-furious__300_427.jpg" alt="Obrazek 2"></div>
+  </div>
+</body>
+</html>
