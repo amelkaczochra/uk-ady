@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="pl">
+        <head>
+            <meta charset="UTF=8">
+            <title>Układy</title>
+            <style>
+                body{
+                    padding: 40px;
+                    background: white
+                }
+                h1{
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+                .container{
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+                    gap: 20px;
+                }
+                .strony {
+                    background-color: white;
+                    padding: 30px 20px;
+                    text-align: center;
+                    font-size: 20px;
+                    color:blueviolet
+                    border-radius: 12px;
+                }
+                .strony:hover{
+                    background-color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Układy</h1>
+            <div class="container">
+                <a class="strony" href="float.html">Float</a>
+                <a class="srtony" href="inline-block.html">Inline-block</a>
+                <a class="strony" href="flexbox.html">Flexbox</a>
+                <a class="strony" href="grid.html">Grid</a>
+            </div>
+        </body>
+    </html>
